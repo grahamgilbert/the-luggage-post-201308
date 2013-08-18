@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -e ~/Desktop/File\ Server.afploc ]
+    then
+    rm -f ~/Desktop/File\ Server.afploc
+fi
+cp /Library/Management/Desktop_Icons/File\ Server.afploc ~/Desktop/File\ Server.afploc
